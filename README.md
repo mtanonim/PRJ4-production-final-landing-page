@@ -26,3 +26,6 @@ Please check the comments in [index.html](https://github.com/buas-media-interact
 Social media icons: FontAwesome - <https://fontawesome.com/> - Licensed under Creative Commons Attribution 4.0 (CC-BY-4.0)
 
 Photos of the campus were taken by Raphaël Velt © [Breda University of Applied Sciences](https://www.buas.nl/)
+
+## Landing page link
+- https://mtanonim.github.io/PRJ4-production-final-landing-page/
