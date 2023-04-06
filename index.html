@@ -16,9 +16,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
   <title>Jorney mate landing page</title>
+  <link rel="icon" href="images/logo.JPG" type="image/png">
 
-    <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
-    <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6EXHEGBH68"></script>
   <script>
   window.dataLayer = window.dataLayer || [];
@@ -33,42 +32,56 @@
 </head>
 <body>
     <!-- Navigation bar-->
-
-      <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-          <a class="navbar-brand" href="index.html">
-            <img src="images/icons/buas-square.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-           Journey mate
-          </a>
-           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="visuals.html">Visual identity</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="team.html">About us</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- End of navigation bar -->
+        
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <a class="navbar-brand navtext" href="index.html">
+      <img src="images/logonoback.png" alt="Logo" width="45" height="45" class="d-inline-block align-text-top">
+   Journey mate
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+            <a class="nav-link normaltext" href="index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link normaltext" href="product.html">Product</a>
+        </li>
+        <li class="nav-item active dropdown">
+            <a class="nav-link dropdown-toggle normaltext" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Strategy
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item normaltext" href="marketing.html">Marketing</a>
+              <a class="dropdown-item normaltext" href="visuals.html">Visual identity</a>
+              <a class="dropdown-item normaltext" href="corporate.html">Corporate</a>
+            </div>
+        </li> 
+        <li class="nav-item active">
+            <a class="nav-link normaltext" href="team.html">About us</a>
+        </li>
+    </ul>
+    </div>
+  </nav>
+           
+    <!-- End of navigation bar; home, product, strategy, about, contact us-->
 
     <!-- Start of main, make a script after loading the page - wait few seconds and press M to play the video with sound create a div-->
-
-       <div class="embed-responsive embed-responsive-16by9 iframe-sizing">
-        <iframe width="558" height="315" class="embed-responsive-item" id="ytplayer" src="https://www.youtube.com/embed/b9Wlei7ZV1Y?&autoplay=1&loop=1rel=0&autohide=1&showinfo=0&mute=1&iv_load_policy=3&playlist=b9Wlei7ZV1Y&controls=0" ></iframe>
+      
+       <div class="embed-responsive embed-responsive-16by9">
+        <iframe width="558" height="315" class="embed-responsive-item" id="ytplayer" src="https://www.youtube.com/embed/skVMqmR3hrQ?&autoplay=1&loop=1&   rel=0&autohide=1&showinfo=0&mute=1&iv_load_policy=3&playlist=skVMqmR3hrQ&controls=0&modestbranding=1" ></iframe>
+        <div>
+         <h2 class="above textover">Explore the world</h2> 
+        </div>
       </div>
+     
         
    
     <!-- End of main placeholder -->  
        
-  <div class="container marketing">
+  <div class="container marketing ">
       <section class="text-center my-3">
         <h2>Vision</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
@@ -81,14 +94,14 @@
       <div class="col-lg-6">
         <svg class="bd-placeholder-img frame" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
-        <h2>Heading</h2>
+        <h2 class="normaltext2">Value 1</h2>
         <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-6">
         <svg class="bd-placeholder-img frame" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
-        <h2>Heading</h2>
+        <h2 class="normaltext2">Value 2</h2>
         <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
@@ -98,14 +111,14 @@
       <div class="col-lg-6">
         <svg class="bd-placeholder-img frame" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
-        <h2>Heading</h2>
+        <h2 class="normaltext2">Value 3</h2>
         <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-6">
         <svg class="bd-placeholder-img frame" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
-        <h2>Heading</h2>
+        <h2 class="normaltext2">Value 4</h2>
         <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
@@ -114,14 +127,21 @@
 
   
   <!-- FOOTER -->
-  <hr class="featurette-divider">
+  <hr class="footerhr">
   
-  <footer class="container">
-    <p class="float-end"><a href="#">Back to top</a></p>
-    <p>&copy; 2022-2023 Joruney mate Inc. &middot; <a href="team.html">About us</a></p>
+  <footer class="container-fluid normaltext2">
+      <p class="float-end d-flex justify-content-center pt-3"><a href="#">Back to the top</a></p>
+      <div class="row">
+      <ul class="nav col-md-4 justify-content-center">
+        <li><a class="mx-3">Follow us:</a></li>
+        <li class="ms-3"><a href="https://www.facebook.com/profile.php?id=100090457701384" target="_blank"><img src="images/icons/facebook.svg" alt="facebook logo" height="24" width="24"></a></li>
+        <li class="ms-3"><a href="https://www.instagram.com/journeymate.nl/" target="_blank"><img src="images/icons/instagram.svg" alt="instagram logo" height="24" width="24"></svg></a></li>
+        <li class="ms-3"><a href="https://youtu.be/skVMqmR3hrQ" target="_blank"><img src="images/icons/youtube.svg" alt="youtube logo" height="24" width="24"></svg></a></li>
+      </ul> 
+      <p class="ml-auto mx-5">&copy; 2022-2023 Journey mate Inc.</p>
+      </div>
   </footer>
-
-
+  
 </body>
 </html>
 

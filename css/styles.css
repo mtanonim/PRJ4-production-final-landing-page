@@ -1,12 +1,22 @@
 /* Importing a Google Font */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+@import url("https://use.typekit.net/uio5vso.css");
+
+/*font-family: "lust", serif;
+font-weight: 700;
+font-style: normal;
+
+font-family: "lust-didone-fine", sans-serif;
+font-weight: 100;
+font-style: normal;*/
 
 /* Changing the main font and background colour */
 
 body {
 	font-family: Raleway, sans-serif;
-	background-color: rgb(204,255,102);
+  font-size: calc(8px + 1vw);
+	background-color: #FEF8A6;
 }
 
 /* Changing the background colour for the header */
@@ -18,8 +28,9 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: violet;
+	background-color: #0093F5;
 }
+
 
 /* Effect on social media buttons */
 
@@ -164,3 +175,88 @@ footer a:hover {
   max-width: 100%;
   height: auto;
 }
+.embed-responsive {
+  position: relative;
+}
+
+.above{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}     
+
+.textover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "lust", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: calc(45px + 2vw);
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.navtext{
+  font-size: calc(25px + 2vw); 
+  -webkit-text-stroke: 2px black;
+  font-family: "lust-didone-fine", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: black;
+}
+
+.normaltext{
+  font-family: "lust", serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 2px;
+  -webkit-text-stroke: 1px;
+  color: black;
+}
+
+.normaltext2{
+  font-family: "lust", serif;
+  font-weight: 200;
+  font-style: normal;  
+  color: black;
+  letter-spacing: 2px;
+  -webkit-text-stroke: 1px;
+}
+
+.btn{
+   text-shadow: 2px 1px black;  
+}
+
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FF91F9;
+  color: white;
+  text-align: center;
+}
+
+.footerhr {
+  margin-bottom: 0px;
+  color: black; 
+}
+
+.navtext:hover {
+  color: black;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+

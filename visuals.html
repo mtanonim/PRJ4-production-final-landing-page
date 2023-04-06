@@ -25,28 +25,38 @@
 <body>
     <!-- Navigation bar-->
 
-      <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-          <a class="navbar-brand" href="index.html">
-            <img src="images/icons/buas-square.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-           Journey mate
-          </a>
-           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Visual identity</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="team.html">About us</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <a class="navbar-brand navtext" href="index.html">
+      <img src="images/logonoback.png" alt="Logo" width="45" height="45" class="d-inline-block align-text-top">
+   Journey mate
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+            <a class="nav-link normaltext" href="index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link normaltext" href="product.html">Product</a>
+        </li>
+        <li class="nav-item active dropdown">
+            <a class="nav-link dropdown-toggle normaltext" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Strategy
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item normaltext" href="marketing.html">Marketing</a>
+              <a class="dropdown-item normaltext" href="visuals.html">Visual identity</a>
+              <a class="dropdown-item normaltext" href="corporate.html">Corporate</a>
+            </div>
+        </li> 
+        <li class="nav-item active">
+            <a class="nav-link normaltext" href="team.html">About us</a>
+        </li>
+    </ul>
+    </div>
+  </nav>
 
     <!-- End of navigation bar -->
 
@@ -125,13 +135,20 @@
 
   
   <!-- FOOTER -->
-  <hr class="featurette-divider">
+  <hr class="footerhr">
   
-  <footer class="container">
-    <p class="float-end"><a href="#">Back to top</a></p>
-    <p>&copy; 2022-2023 Joruney mate Inc. &middot; <a href="team.html">About us</a></p>
+  <footer class="container-fluid normaltext2">
+      <p class="float-end d-flex justify-content-center pt-3"><a href="#">Back to the top</a></p>
+      <div class="row">
+      <ul class="nav col-md-4 justify-content-center">
+        <li><a class="mx-3">Follow us:</a></li>
+        <li class="ms-3"><a href="https://www.facebook.com/profile.php?id=100090457701384" target="_blank"><img src="images/icons/facebook.svg" alt="facebook logo" height="24" width="24"></a></li>
+        <li class="ms-3"><a href="https://www.instagram.com/journeymate.nl/" target="_blank"><img src="images/icons/instagram.svg" alt="instagram logo" height="24" width="24"></svg></a></li>
+        <li class="ms-3"><a href="https://youtu.be/skVMqmR3hrQ" target="_blank"><img src="images/icons/youtube.svg" alt="youtube logo" height="24" width="24"></svg></a></li>
+      </ul> 
+      <p class="ml-auto mx-5">&copy; 2022-2023 Journey mate Inc.</p>
+      </div>
   </footer>
-
 
 </body>
 </html>
