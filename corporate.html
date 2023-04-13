@@ -57,7 +57,7 @@
   </nav>
     <!-- End of navigation bar -->
 
-    <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light">
+    <header class="py-2 py-md-4 py-lg-5 text-center container-fluid corporateheader text-light">
       <h1 class="fw-light">Corporate information - page provided by Breda University of Applied Sciences</h1>
     </header>
 
@@ -72,6 +72,8 @@
               <a class="nav-link ms-3 p-0 mb-2" href="#production-1">Design Elements</a>
               <a class="nav-link ms-3 p-0 mb-2" href="#production-2">Credits</a>
               <a class="nav-link ms-3 p-0 mb-2" href="#production-3">Testing Report</a>
+              <a class="nav-link ms-3 p-0 mb-2" href="#limitations">Limitations</a>
+              <a class="nav-link ms-3 p-0 mb-2" href="#purpose">Website purpose</a>
             </nav>
             <a class="nav-link p-0 mb-sm-2 fs-5 me-2 me-sm-0 text-decoration-none" href="#marketing">Marketing</a>
             <nav class="nav d-none d-sm-flex flex-column mb-2">
@@ -103,7 +105,7 @@
             <li>Marek Tomčo (ID: 213744)</li>
             <li>Quincy Dekker (ID: 213804)</li>
              <li>Fenna Vulto (ID: 211318)</li>
-             <li>Nikhil Ahuja (ID: 212507)</li>
+             <li></li>
           </ol>
           <!-- End General -->
 
@@ -163,41 +165,75 @@
           <p>Please provide a list of design elements alongside their justifications:</p>
           <ul>
             <li>
-              A colour scheme (with HTML colour codes, which must be consistent with your final website)
-              <em>&mdash; see the example below from the BUas brand book:</em>
+              A colour scheme (with HTML colour codes, which must be consistent with your final website):
               <ul class="list-unstyled">
                 <li>
-                  <span class="border border-secondary rounded px-2 me-1" style="background-color: #EE7622;"></span>
-                  #EE7622
-                  <em>The orange colour refers to the Dutch identity and the city of Breda (Oranjestad). Orange stands for&hellip;</em>
+                  <span class="border border-secondary rounded px-2 me-1" style="background-color: #0093F5;"></span>
+                  #0093F5
+                  <em>This light blue was used for navbar and footer to tie the whole page together, establishing it's borders in gentle way. This blue stands for sophistication and reliability.</em>
                 </li>
                 <li>
                   <span class="border border-secondary rounded px-2 me-1" style="background-color: #00406B;"></span>
                   #00406B
-                  <em>Dark blue signifies&hellip;</em>
+                  <em>This dark blue was used mainly for fonts - it is dark to create some contrast with the background and "highlight" information. This blue stands for corporate and high quality</em>
+                </li>
+                <li>
+                  <span class="border border-secondary rounded px-2 me-1" style="background-color: #FEF8A6;"></span>
+                  #FEF8A6
+                  <em>This yellow was used for the background of the website, making it more saturated, evoking more positive thoughts. This yellow stands for happiness.</em>
+                </li>
+                <li>
+                  <span class="border border-secondary rounded px-2 me-1" style="background-color: #FF91F9;"></span>
+                  #FF91F9
+                  <em>This hot pink was used for fonts - again trying to create some contast and make headers pop. This yellow stands for sincerity and is flirty.</em>
                 </li>
               </ul>
             </li>
-            <li>Font choices</li>
-            <li>User interface patterns (e.g. grids, carousels, menu organizations etc.)</li>
-            <li>The structure of the <strong>navigation and content</strong> (e.g. how content units are distributed across pages)</li>
-            <li>All these elements must be justified by referring to the theory <strong>and/or vocabulary</strong> of design</li>
+            <li class="font-weight-bold">Font choices</li>
+            <li><p><strong>lust-serif</strong> -> used for main headers and navbar. We used a serif font to make it more playfull fitting our brand, 
+                    most of the time complimenting contrast colors.
+                </p></li>
+            <li><p><strong>lust-dione-fine</strong> -> used for the brand name, differentiating a bit from other text. Close to previous font, but san serif, 
+                    making it fell more professional and sophisticated, while still being on brand with the playful fell. 
+                 </p></li>
+            <li><p><strong>Raleway</strong> -> used for normal text and announcment, as it is easily readable, also thanks to the fact of being san serif. Used for plain text
+                  </p></li>                  
+           
+            <li class="font-weight-bold">User interface patterns (e.g. grids, carousels, menu organizations etc.)</li>
+            <li><strong>Navigation bar</strong> -> used for a coherant navigation on top of the page. Also includes a dropdown menu for more options, while maitaining its simplicity.</li>
+            <li><strong>Carousel</strong> -> used an owlcarousel which adds more features like auto scroll, hover pause and dynamic number of items. Used for rating and team presentation to make it more dynamic and engaging</li>
+            <li><strong>Links</strong> -> used link internal on the page linking to other parts of the code/pages of the website and externaly to our social media, making eeverything more accesible.</li>
+            <li><strong>Footer</strong> -> used on the bottom the page for some navigation to our social media, top of the page and copyright</li>
+            <li><strong>Video container/iframe</strong> -> used on our landing/idex page to grab immediate attention, simply showing what our service is about. It has a transparent div overlaying it making it impossible to click.</li>
+            <li><strong>Divs</strong> -> using divs which utilize flexbox to structure the page, making it responsive. Also overlaying the video as mentioned before.</li>
+            <li><strong>Buttons</strong> -> using buttons which uses link to direct to content (mostly ouside of the page)</li>
+            <li class="font-weight-bold">The structure of the navigation and content (e.g. how content units are distributed across pages)</li>
+            <li><p> The whole page is structured with repetetive navbars and footers to make the controls same and not confusing. The navbar has 4 main
+                    part, making it not overwhealming, when looking for something quickly. Other parts of the of the body use flexbox to be responsive.
+                    Each part has some sort of visual design = picture, video or carousel with pictures to grab the attention of the user. This is complimented
+                    by contrasting colors in headers. Links provide aditional navigation through the site, while also providing redirection to external content 
+                    which is relevant to the brand/product.                 
+                </p></li>
             <li>Please relate these elements to other units, for example:
               <ul>
-                <li>How does website design fit the <strong>values and personality of the brand</strong>?</li>
-                <li>How does website design fit the <strong>marketing and communication strategy</strong>?</li>
-                <li>How does website design help showcase the <strong>unique value proposal of the product</strong>?</li>
+                <li>How does website design fit the <strong>values and personality of the brand</strong>? Colors and visuals combined align with the values and personality of the brand</li>
+                <li>How does website design fit the <strong>marketing and communication strategy</strong>? It provides a hub for people to explore our brand and product more in dept, communicating more information in depth.</li>
+                <li>How does website design help showcase the <strong>unique value proposal of the product</strong>? The website has ddedicated page for the product which describes this unique proposal</li>
               </ul>
             </li>
           </ul>
-          <h4 id="production-2" class="mt-2">Credits</h4>
+          <h4 id="production-2" class="mt-2 font-weight-bold">Credits</h4>
           <p>Please provide links and/or credits for third-party elements including:</p>
           <ul>
             <li>HTML <strong>templates</strong> if these are different from this one (<a href="https://github.com/buas-media-interactive/prj4-group-template" target="_blank">buas-media-interactive/prj4-group-template</a>)</li>
             <li>The source code for <strong>UX patterns</strong> other than the ones provided by the “Bootstrap” library (see <a href="https://getbootstrap.com/docs/5.2/" target="_blank">getbootstrap.com/docs</a> for a list of such patterns)</li>
-            <li><strong>Images</strong> that were not produced by students themselves, including when crediting is not mandatory (in other words, we ask you to credit Unsplash images)</li>
+            <li><strong>Images</strong> that were not produced by students themselves, including when crediting is not mandatory (in other words, we ask you to credit Unsplash images) -> Paul - Photo by <a href="https://unsplash.com/@christianbuehner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+                christian buehner</a> on <a href="https://unsplash.com/photos/DItYlc26zVI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>; George - Photo by <a href="https://unsplash.com/es/@leirenestrong?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Irene Strong</a> 
+                on <a href="https://unsplash.com/photos/v2aKnjMbP_k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>; Jessica - Photo by <a href="https://unsplash.com/ja/@microsoft365?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Microsoft 365</a> on <a href="https://unsplash.com/images/people/women?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+                Unsplash</a>; Clown - Photo by <a href="https://unsplash.com/es/@olegivanovpht?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Oleg Ivanov</a> on <a href="https://unsplash.com/photos/RtTIXktREqQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></li>
+            <li>The carousel used is called owlcarousel 2 <a href="https://owlcarousel2.github.io/OwlCarousel2/">link here</a> for the official page</li>
           </ul>
-          <h4 id="production-3" class="mt-2">Testing Report</h4>
+          <h4 id="production-3" class="mt-2 font-weight-bold">Testing Report</h4>
           <p>Please write about&hellip;</p>
           <ul>
             <li>Your testing <strong>goals</strong> &ndash; in other words, what you are trying to learn about your website?</li>
@@ -215,10 +251,26 @@
               </ul>
             </li>
           </ul>
+          <h4 id="limitations" class="mt-2 font-weight-bold">Limitations</h4>
+          <p>Limitations I have found on the website:</p>
+          <ul>
+            <li>Video on the main page does not play on a phone/tablet as youtube autoplay is dissabled on those devices -> possibly a javascript could be used to overcome this limitation. It would click on the location of the video after loading the page and playing the video?</li>
+            <li>Video also shows the title of the video on initial load for small time frame.</li>
+            <li>Not all the testing was done with our target audience. I understand that it is important for them to test the website, but unfortenately that was not possible thatnks to the limitation of time and humane resources.</li>
+            <li>The colors could be sometimes too overwhealming for some people, also not fully accurately representing our values.</li>
+          </ul>
+          <h4 id="purpose" class="mt-2 font-weight-bold">Purpose of the website</h4>
+          <p>Purpose of this website is prelaunch website for our product</p>
+          <ul>
+            <li><p> Purpose of this website is prelaunch website for our product -> this is mainly true about the product page of the whole website. Rest 
+                    is raise brand awarness. We felt that prelauch website would be better suited for our product, as founding tiers for
+                    crowdfunding website do no really work for us as we have a service, not a product.
+                </p></li>
+          </ul>
 
           <!-- End Production, start Marketing -->
 
-          <h2 id="marketing" class="mt-5">Marketing</h2>
+          <h2 id="marketing" class="mt-5 font-weight-bold">Marketing</h2>
           <h4 id="marketing-1" class="mt-2">Context of campaign and promotional activities</h4>
           <p>Explain the context of the campaign is (What the campaign is about, what the message is, which promotional activities were executed). In addition, present the objectives as mentioned in the Communication & Media Plan.</p>
           <p>Explain and justify the chosen channels/platforms used and show there is a solid connection to the objectives established in the Communication & Media Plan.</p>
@@ -250,7 +302,7 @@
         
           <!-- End Marketing, start Management -->
 
-          <h2 id="management" class="mt-5">Management</h2>
+          <h2 id="management" class="mt-5 font-weight-bold">Management</h2>
 
           <h4 id="management-1" class="mt-2">Lean Canvas version 3</h4>
 
@@ -301,29 +353,45 @@
           <ul>
             <li class="font-italic font-weight-bold">List your main path to customers.</li>
             <li class="font-italic font-weight-bold">How do you reach them? What channel(s) do you use.</li>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Website</li>
           </ul>
           <p class="font-weight-bold">Key metrics</p>
           <ul>
             <li class="font-italic font-weight-bold">List the key numbers that tell you how your brand experience is doing.</li>
             <li class="font-italic font-weight-bold">For example amount of users, downloads, visitors, subscriptions, sales etc. Numbers you are able to measure.</li>
+            <li>Check the interviews</li>
           </ul>
           <p class="font-weight-bold">Revenue streams</p>
           <ul>
             <li class="font-italic font-weight-bold">List your sources of revenue: describe the revenue model and the (different) revenue stream(s).</li>
+            <li>People pay per activity that they sign up for</li>
+            <li>People can get a subscription and become VIP. With this they have special access to reserved VIP spots </li>
           </ul>
           <p class="font-weight-bold">Cost structure</p>
           <ul>
             <li class="font-italic font-weight-bold">List your main costs: define the fixed and variable costs.</li>
             <li class="font-italic font-weight-bold">Calculate the cost per unit.</li>
+            <li>Costs for the activities</li> 
+            <li>Costs for maintaining website </li>
+            <li>Travel costs</li>
+            <li>Wages</li>
+            <li>Cost per unit - 21,8 euro</li>
           </ul>
           <p class="font-weight-bold">Services/products</p>
           <ul>
             <li class="font-italic font-weight-bold">State what your product and/or service is and how this contributes to your unique value proposition.</li>
             <li class="font-italic font-weight-bold">Clarify the fit between the product/service developed and the brand identity/brand image.</li>
+            <li><p> People can create an account on our website and add a badge stating their intentions, either looking for a relationship or looking for a friendship. 
+                    Once this is done, you can sign up for activities such as going to see the tulips, indoor climbing, bowling, etc. They will get to know other participants 
+                    along the way and hopefully meet a new friend or partner
+                </p>
+                </li>
           </ul>
 
-          <h4 id="management-2" class="mt-2">Validation of Assumptions</h4>
-          <p>Write a reflection on the choices made in creating choosing the trademark, including an analysis of the existing alternatives.</p>
+          <h4 id="management-2" class="mt-2 font-weight-bold">Validation of Assumptions</h4>
+          <p class="font-italic font-weight-bold">Write a reflection on the choices made in creating choosing the trademark, including an analysis of the existing alternatives.</p>
 
           <!-- End Management, start Appendix -->
           
@@ -360,7 +428,7 @@
 
     <!-- A footer with socials -->
     <footer class="container-fluid normaltext2">
-      <p class="float-end d-flex justify-content-center pt-3"><a href="#">Back to the top</a></p>
+      <p class="float-end d-flex justify-content-center pt-3"><a class="text-dark" href="#">Back to the top</a></p>
       <div class="row">
       <ul class="nav col-md-4 justify-content-center">
         <li><a class="mx-3">Follow us:</a></li>

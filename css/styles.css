@@ -109,7 +109,8 @@ footer a:hover {
 /* Custom shapes*/
 
 :root {
-  --notcircle: "M63.2,1.43c38.76,4.5,81.55,46.01,74.46,85.33c-6.78,37.56-57.8,66.13-95.83,45.4C3.43,111.24-8.14,47.45,13.09,18.65C28.74-2.58,58.08,0.83,63.2,1.43z"
+  --notcircle: "M63.2,1.43c38.76,4.5,81.55,46.01,74.46,85.33c-6.78,37.56-57.8,66.13-95.83,45.4C3.43,111.24-8.14,47.45,13.09,18.65C28.74-2.58,58.08,0.83,63.2,1.43z";
+  --notacircle500: "M119.45,16.64c134-61.73,368.44,57.18,380.09,210.55,11.92,156.88-211.66,318.33-360.86,261C20.79,442.84-28,269.62,16,144.91,24.13,121.7,49.86,48.68,119.45,16.64Z";
 }
 
 .frame {
@@ -117,6 +118,13 @@ footer a:hover {
     width: 140px;
     position: relative;
     clip-path: path(var(--notcircle));
+}
+
+.frame500 {
+    height: 500px;
+    width: 500px;
+    position: relative;
+    clip-path: path(var(--notacircle500));
 }
 
 .space-div{
@@ -197,8 +205,8 @@ footer a:hover {
   font-weight: 700;
   font-style: normal;
   font-size: calc(45px + 2vw);
-  color: white;
-  text-shadow: 2px 2px black;
+  color: #FF91F9;
+  text-shadow: 2px 1px black;
 }
 
 .navtext{
@@ -216,7 +224,7 @@ footer a:hover {
   font-style: normal;
   letter-spacing: 2px;
   -webkit-text-stroke: 1px;
-  color: black;
+  color: #3F0FD1;
 }
 
 .normaltext2{
@@ -232,12 +240,15 @@ footer a:hover {
    text-shadow: 2px 1px black;  
 }
 
+.corporateheader{
+  background-color: #3F0FD1;
+}
 
 footer {
   left: 0;
   bottom: 0;
-  width: 100%;
-  background-color: #FF91F9;
+  width: 100%;        
+  background-color: #0093F5;
   color: white;
   text-align: center;
 }
