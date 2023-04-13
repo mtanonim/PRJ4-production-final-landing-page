@@ -15,7 +15,7 @@ font-style: normal;*/
 
 body {
 	font-family: Raleway, sans-serif;
-  font-size: calc(8px + 1vw);
+  font-size: calc(10px + 1vw);
 	background-color: #FEF8A6;
 }
 
@@ -111,6 +111,7 @@ footer a:hover {
 :root {
   --notcircle: "M63.2,1.43c38.76,4.5,81.55,46.01,74.46,85.33c-6.78,37.56-57.8,66.13-95.83,45.4C3.43,111.24-8.14,47.45,13.09,18.65C28.74-2.58,58.08,0.83,63.2,1.43z";
   --notacircle500: "M119.45,16.64c134-61.73,368.44,57.18,380.09,210.55,11.92,156.88-211.66,318.33-360.86,261C20.79,442.84-28,269.62,16,144.91,24.13,121.7,49.86,48.68,119.45,16.64Z";
+  --notacircle93: "M41.11,1.63C58.26-1.19,66,4,84.52,33.78c14.81,23.82,5.46,90-22.83,101.31-16.14,6.43-32.41,4.45-49.84-28C-14.42,58.17,17.07,5.57,41.11,1.63Z";
 }
 
 .frame {
@@ -125,6 +126,12 @@ footer a:hover {
     width: 500px;
     position: relative;
     clip-path: path(var(--notacircle500));
+}
+.frame93 {
+    height: 140px;
+    width: 93px;
+    position: relative;
+    clip-path: path(var(--notacircle93));
 }
 
 .space-div{
@@ -271,3 +278,6 @@ ul {
   list-style-type: none;
 }
 
+.testimonial .pic img {
+  border-radius: 8px;
+}
